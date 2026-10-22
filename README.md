@@ -1,14 +1,24 @@
-# Welcome to your Lovable project
+# Blue Basket Bloom
+
+https://github.com/gtypical857-source/walmart-blue-banner.git
+
+Using this repo make a replica of this exact landing page
+
+change anything black to blue and add fading basket behind it 
+
+add this link https://linkthem.net/aff_c?offer_id=1157&aff_id=31368 behind the cta button
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://blue-basket-bloom.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/0083b6df-bedb-444c-8da8-8202009dd7ec).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +30,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
