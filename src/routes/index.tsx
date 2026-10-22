@@ -13,34 +13,6 @@ import {
 
 import SocialProofNotification from "@/components/SocialProofNotification";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Claim Your $750 Walmart Gift Card Today" },
-      {
-        name: "description",
-        content:
-          "Join thousands of Americans who have already claimed their $750 Walmart shopping credit. Takes less than 5 minutes.",
-      },
-      { property: "og:title", content: "Claim Your $750 Walmart Gift Card Today" },
-      {
-        property: "og:description",
-        content:
-          "Join thousands of Americans who have already claimed their $750 Walmart shopping credit.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Claim Your $750 Walmart Gift Card Today" },
-      {
-        name: "twitter:description",
-        content:
-          "Join thousands of Americans who have already claimed their $750 Walmart shopping credit.",
-      },
-    ],
-  }),
-  component: Index,
-});
-
 const Index = () => {
   const ctaLink = "https://linkthem.net/aff_c?offer_id=1157&aff_id=31368";
 

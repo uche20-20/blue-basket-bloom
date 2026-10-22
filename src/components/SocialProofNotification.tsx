@@ -13,7 +13,7 @@ const states = [
   "Ohio", "Illinois", "Arizona", "Pennsylvania", "Michigan",
 ];
 
-const getRandomItem = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
+const getRandomItem = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)] as T;
 
 const SocialProofNotification = () => {
   const [visible, setVisible] = useState(false);
