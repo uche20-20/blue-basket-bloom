@@ -133,6 +133,15 @@
     border-color: var(--color-border);
   }
 
+  /* Matches the source page: content column capped at 600px, centered */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
